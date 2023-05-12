@@ -1,0 +1,171 @@
+/* Small devices (phones, less than 768px) */
+@media (max-width: 767.98px) {
+
+
+.main-container{
+    box-sizing: content-box;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+}
+
+
+body{
+margin: 3%;
+}
+
+#location {
+    font-size: 1.25em;
+    width: 100%;
+}
+
+.text_form{
+    width: 100%;
+}
+
+/****** HEADER OPEN ***********/
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav {
+        width: 100%;
+    }
+
+    .logo {
+        align-items: center;
+        padding-bottom: 30px;
+
+    }
+
+    .menu {
+        width: 100%;
+        justify-content: center;
+        flex-direction: row;
+        gap: 0;
+        border-bottom: solid 2px #F2F2F2;
+    }
+
+    .link {
+        flex-basis: 50%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: start;
+        height: 34px;
+
+    }
+
+    .link:hover {
+        border-bottom: 3px #0065FC solid;
+        border-top: none;
+    }
+/****** HEADER CLOSE ***********/
+
+/****** FORMULAIRE OPEN ***********/
+.navigtop {
+    justify-content: center;
+    width: 100%;
+}
+
+.searchFormSubmitinput {
+    padding: 0px 14px;
+}
+
+.search_text {
+    display: none
+}
+.icon_search{
+    display: block;
+}
+
+.hbts{
+    margin-top: 13%;
+    text-align: center;
+}
+/****** FORMULAIRE CLOSE ***********/
+
+/****** FILTRES ***********/
+.filter{
+    font-size: 12px;
+}
+
+
+.filter_listing{
+display: grid;
+grid-template-columns: repeat(2,1fr);
+}
+
+.filter_tittle{
+    display: block;
+}
+
+.filter_listing button.filter {
+    width: 100%;
+    height: 50px;
+  }
+
+/****** FILTRES ***********/
+
+
+/****** HEBERGEMENTS & POPULAIRES ***********/
+.hebergements-and-populaires{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.populaires-card{
+    display: block;
+}
+
+.populaires{
+    margin-top: 0;
+}
+
+.cards{
+    height:100%;
+    margin-bottom: 10px;
+}
+
+.populaires-cards{
+    display: block;
+}
+
+.populaires-card img {
+  object-fit: cover;
+  height: 8.5em;
+  }
+
+
+.hebergements-and-populaires .hebergements{
+    background-color: white;
+}
+
+/****** HEBERGEMENTS & POPULAIRES ***********/
+
+
+/****** ACTIVITES ***********/
+.activite{
+    display: block;
+}
+
+.activiteimg img{
+ width: 100%;
+}
+
+.footer_containeurs{
+    display: block;
+}
+
+.CarteActivite{
+    width:100%;
+    height:250px;
+    margin-bottom: 35px;
+}
+/****** ACTIVITES ***********/
+
+
+}

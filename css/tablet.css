@@ -1,0 +1,72 @@
+/****** Hebergement à Marseille ***********/
+
+@media (max-width: 1024px) {
+   body{
+    margin: 0.188em 2.5em;
+   }
+   
+    .hebergements-and-populaires {
+        flex-direction: column;
+    }
+
+    .hebergements {
+        width: 100%;
+    }
+
+    .populaires {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .populaires-cards {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+        }
+
+    .populaires-cards .card {
+        width: 100%;
+    }
+
+    .populaires-cards .card-title {
+        font-size: 14px;
+    }
+
+    .populaires-cards .card-subtitle {
+        font-size: 13px;
+    }
+
+/****** Les plus populaires ***********/
+    .populaires-card {
+        display: grid; 
+        grid-template-columns: repeat(3,1fr);
+        grid-gap: 20px;
+  }
+
+  .populaires-card .card-title {
+    font-size: 14px;
+}
+
+.populaires-card .card-subtitle {
+    font-size: 13px;
+}
+
+.populaires-card img {
+    width: 33%;
+    height: auto;
+    object-fit: cover;
+}
+
+.cards{
+    padding: 5px;
+}
+
+/****** Activités à Marseille ***********/
+
+.activiteimg img{
+    height: 200px;
+}
+
+}
+
+/****** Activités à Marseille ***********/
+
